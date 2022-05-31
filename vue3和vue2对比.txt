@@ -1,0 +1,16 @@
+1. 组件之间的props使用， vue3，props响应式问题
+1）不能直接解构构赋值写法，会失去响应式， 如果使用解构赋值就必须使用toRefs()将props转换成响应式数据
+2）使用toRefs()将对象属性转换为响应式数据，写法很麻烦，需要通过.value形式处理数据
+3）不解构赋值的话，就在写法上只能props.xxx
+
+2. vue3 watch监听reactive问题, deep: false不起作用
+
+3. vuex4.x 不能和vue2那样直接使用mapState,mapActions,...等map相关处理，需要自定义处理
+
+4. vuex 4.x 模块化问题，命名空间问题，必须带前缀
+
+
+
+
+
+
